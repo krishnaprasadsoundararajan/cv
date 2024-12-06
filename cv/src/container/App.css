@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.buttonStyle {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #d6b781cf; /* Button background color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.buttonContainerStyle {
+  position: absolute;
+  top: 20px; 
+  right: 20px;
+  display: flex;
+  gap: 20px;
+};
+.nameContainerStyle {
+  position: absolute;
+  top: 20px; 
+  left: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+};
+
+img {
+  float: left;  /* Aligns the image to the left */
+  margin-right: 15px;  /* Optional: adds space to the right of the image */
+}
+
+.container {
+  display: flex; /* Use flexbox to lay out the items horizontally */
+  justify-content: space-between; /* Ensures space between left and right sections */
+  align-items: center; /* Vertically center the content */
+  gap: 20px; /* Adds space between the left and right divs */
+}
+
+.part {
+  flex: 1;              /* Each part will take up an equal amount of space */
+  padding: 20px;        /* Adds some space inside each part */
+  text-align: center;   /* Centers text inside each part */
+}
+
+img {
+  width: 150px; /* Makes the image fill the width of its container */
+  height: 200px; /* Maintains the aspect ratio of the image */
+}
