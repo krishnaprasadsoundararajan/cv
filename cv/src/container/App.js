@@ -77,7 +77,9 @@ function App() {
             <h2>Krishna Soundararajan</h2>
             <p>A passionate Software Engineer</p>
           </div>
-          <div className="part">
+          <div class="part"></div>
+          <div class="part"></div>
+          <div>
             <div className="buttonContainerStyle">
               <button className="buttonStyle" onClick={handleHomeButtonClick}>
                 About Me
